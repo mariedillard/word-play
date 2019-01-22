@@ -23,6 +23,6 @@ $(document).ready(function() {
     // this joins the array together creating a new sentenence, and sets our previously established variable to it's result
     finalSentence = reverseSentence.join(" ");
     // this shows the finished sentence to us!
-    alert(finalSentence);
+    $("#output").text(finalSentence);
   });
 });
